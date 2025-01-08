@@ -1,0 +1,2 @@
+# data_platforms_Niclas_Karlman_de24
+Learning Data Platforms

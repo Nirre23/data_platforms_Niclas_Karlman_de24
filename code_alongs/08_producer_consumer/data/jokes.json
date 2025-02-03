@@ -9,11 +9,11 @@
   },
   {
     "joke_id": 3,
-    "joke_text": "A data engineers favorite exercise? Cleaning up messy joins!"
+    "joke_text": "A data engineer’s favorite exercise? Cleaning up messy joins!"
   },
   {
     "joke_id": 4,
-    "joke_text": "Why did the data engineer refuse to use Excel? Because real engineers dont use spreadsheets, they use pipelines!"
+    "joke_text": "Why did the data engineer refuse to use Excel? Because real engineers don’t use spreadsheets, they use pipelines!"
   },
   {
     "joke_id": 5,
@@ -21,19 +21,19 @@
   },
   {
     "joke_id": 6,
-    "joke_text": "Data engineers dont make mistakes… they just create unexpected features in the pipeline!"
+    "joke_text": "Data engineers don’t make mistakes… they just create ‘unexpected features’ in the pipeline!"
   },
   {
     "joke_id": 7,
-    "joke_text": "Why do data engineers love coffee? Because without it, theyd have too many NULL pointer exceptions!"
+    "joke_text": "Why do data engineers love coffee? Because without it, they’d have too many NULL pointer exceptions!"
   },
   {
     "joke_id": 8,
-    "joke_text": "The data engineers motto: 'If it works, dont touch it. If it fails, blame the schema change!'"
+    "joke_text": "The data engineer’s motto: 'If it works, don’t touch it. If it fails, blame the schema change!'"
   },
   {
     "joke_id": 9,
-    "joke_text": "What's a data engineers favorite type of music? Heavy metadata!"
+    "joke_text": "What’s a data engineer’s favorite type of music? Heavy metadata!"
   },
   {
     "joke_id": 10,

@@ -1,0 +1,48 @@
+host system - Det fysiska eller virtuella operativsystemet som kör Docker och hanterar containrarna.
+Exempel: Om du kör Docker på windows,Mac eller linux, är det ditt Host system
+
+virtualization- Processen att skapa en virtuell version av din dator, server eller OS.
+
+spin up - Att starta en ny container.
+
+dockerize - Att paketera en applikation i en Docker-container så att den kan köras i vilken miljö som helst.
+
+docker build -Bygga en Docker-image från en Dockerfile - docker build -t image_name .
+
+docker run	Startar en ny container från en image - docker run -d image_name
+
+docker layers - Docker omptimerer lagringen genom att dela upp en image i lager.
+Varje lager är ofärändligt och cachas för snabbare byggen.
+Ändringar i Dockerfile skapar nya lager.
+
+container - En körbar instans av en Docker-image.
+Isolerad från host-systemet.
+Kan startas,stoppas och tas bort.
+
+image - En mall som innehåller allt som behövs för att skapa en container,(kod,bibliotek,OS-bibliotek.)	
+docker compose up -d - Startar alla containrar i en docker-compose.yml i bakgrunden (-d).
+
+docker compose up --build - Bygger om alla images innan conta startas.	
+
+docker compose down	- Stoppar och tar bort alla tjänster som skapats av Docker compose up
+
+docker exec -it /bin/bash - Går in i en körande container och öppnar en interaktiv terminal.
+
+docker inspect - Visar detaljerad information om en container eller image
+
+docker ps - Listar alla KÖRANDE containrar.
+docker ps -a - Listar även stoppade containrar
+
+docker volume ls - Listar alla Docker-volymer. (permanent lagring)
+
+docker container ls -a - Listar alla containrar, båda aktiva och stoppade.
+
+docker image ls -a Listar alla images, även de som inte används.
+
+docker image prune - Tar bort oanävnda docker-images.
+
+docker container prune -Tar bort stoppade docker-containrar.
+
+tag - En etikett som används för att versionera Docker images 
+
+docker rm - Tar bort en stoppad container. "Docker rm my_container"
